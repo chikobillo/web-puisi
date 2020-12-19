@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: puisi-service
+  namespace: belajar-namespace
+spec:
+  clusterIP: None
+  ports:
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: web-puisi
+    tier: web
+  type: ClusterIP
+
