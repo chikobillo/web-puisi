@@ -49,4 +49,4 @@ jobs:
       run: |-
         gcloud builds submit \
           --quiet \
-          --tag "asia.gcr.io/$PROJECT_ID/$SERVICE_NAME:${{ steps.get_version.outputs.VERSION }}"
+          --tag "asia.gcr.io/$PROJECT_ID/$SERVICE_NAME:1.0.0"
