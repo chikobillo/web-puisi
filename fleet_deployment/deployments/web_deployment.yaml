@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: web-puisi
-        image: asia.gcr.io/rizky-belajar/web-puisi:1.0.1
+        image: asia.gcr.io/rizky-belajar/web-puisi:1.0.3
         resources: {}
         ports:
         - containerPort: 80
